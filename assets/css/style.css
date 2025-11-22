@@ -1,0 +1,33 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.lightbox-overlay {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.lightbox-image {
+  max-height: 90vh;
+  max-width: 90vw;
+}
+.breadcrumb-item:not(:last-child)::after {
+  content: "›";
+  margin: 0 8px;
+  color: #6b7280;
+}
+.testimonial-card {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.faq-item {
+  transition: all 0.3s ease;
+}
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.faq-item.active .faq-answer {
+  max-height: 500px;
+}
+
+.logo {
+  width: 150px;
+}
